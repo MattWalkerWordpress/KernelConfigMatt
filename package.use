@@ -1,0 +1,22 @@
+sys-apps/net-tools hostname
+net-misc/dhcp client
+net-misc/networkmanager dhclient
+sys-apps/util-linux logger
+app-admin/doas persist
+www-client/firefox geckodriver gmp-autoupdate
+app-emulation/qemu usbredir slirp pin-upstream-blobs plugins
+app-emulation/libvirt vepa virt-network
+app-emulation/virt-manager gtk
+media-libs/vulkan-layers abi_x86_64 abi_x86_32
+media-libs/vulkan-loader abi_x86_64 abi_x86_32
+dev-util/vulkan-tools abi_x86_64 abi_x86_32
+app-office/libreoffice base firebird pdfimport
+dev-db/sqlite -icu
+dev-lang/python -sqlite -bluetooth
+kde-plasma/plasma-meta browser-integration kwallet smart -display-manager -sddm
+kde-apps/kdeadmin-meta cron
+kde-apps/kdecore-meta share thumbnail
+kde-apps/kdenetwork-meta webengine
+kde-apps/kdeutils-meta 7zip lrz rar
+media-video/obs-studio speex
+sys-boot/grub:2 device-mapper
